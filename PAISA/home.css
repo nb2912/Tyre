@@ -1,0 +1,620 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 50px;
+    background-image: url('home-bg.jpeg');
+    background-size:500px;
+
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-box select, .search-box button {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.tires {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #292929;
+}
+
+.tire-card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.tire-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tire-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #32CD32;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+    color: #fff;
+    text-align: left;
+  }
+  
+  h1, h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+      
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: left;
+  }
+  
+  .header {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .header-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* text-align: left; */
+  }
+  
+  .header-img {
+    width: 400px;
+    height: auto;
+    border-radius: 4%;
+  }
+  
+  .section {
+    margin-top: 30px;
+    /* text-align: left; */
+    display: inline;
+    
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left
+  }
+  
+  .button-group {
+    display: inline;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button-group-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    height: auto;
+    width:auto ;
+    margin: 5px;
+  }
+  
+  .button-group-vertical .button {
+    margin-bottom: 10px;
+  }
+  
+  .set-of-tires {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .set-of-tires .button {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 5px;
+  }
+  
+  .vehicle-type {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+  }
+  
+  .vehicle-type .button {
+    width: px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin: 5px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #2d2d2d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.highlight {
+    color: #3ca55c;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.tire-brands {
+    background-color: #333;
+    padding: 40px 20px;
+}
+
+.brands-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.brands-logos img {
+    max-width: 100px;
+    filter: grayscale(100%);
+}
+
+.brand-list {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.alphabet {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.alphabet span {
+    cursor: pointer;
+}
+
+.brand-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.brand-buttons button {
+    background-color: #3ca55c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    flex: 1 1 calc(25% - 20px);
+    width: 3px;
+    height: 40px;
+}
+
+.choose-us {
+    background-color: #444;
+    padding: 40px 20px;
+}
+
+.choose-us-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.choose-us-content img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+.choose-us-text {
+    max-width: 40%;
+}
+
+.choose-us-text h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.choose-us-text ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.choose-us-text li {
+    margin: 10px 0;
+}
+
+.choose-us-text strong {
+    color: #3ca55c;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+h1 span {
+    color: #00ff7f;
+}
+
+#shop-by-location {
+    background-color: #222;
+    padding: 50px 0;
+}
+
+.world-map {
+    background: url('world-map.png') no-repeat center center;
+    background-size: contain;
+    height: 300px;
+}
+
+#customer-review {
+    background-color: #444;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.review-content {
+    text-align: left;
+}
+
+.rating {
+    color: #ffd700;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 span, h2 span {
+    color: #00ff7f;
+}
+
+#help {
+    background-color: #444;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#help p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-options button {
+    background-color: #00ff7f;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#subscribe {
+    background-color: #555;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-container img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    background: #000;
+}
+
+.subscribe-content {
+    text-align: left;
+}
+
+.subscribe-content form {
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.subscribe-content input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+}
+
+.subscribe-content button {
+    background-color: #00ff7f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    color: #333;
+    cursor: pointer;
+}
+
+/* footer {
+    background-color: #222;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom a {
+    color: #00ff7f;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+/* Add this to your existing CSS */
+
+/* nav .nav-link.active {
+    color: #00ff7f;
+    border-bottom: 2px solid #00ff7f;
+}
+
+.search-box select,
+.search-box button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-box button {
+    background-color: #00ff7f;
+    color: #333;
+    cursor: pointer;
+} */ */
+
+footer {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Tyre {
+    width: 120px;
+    height: 100px;
+}
+
+.footer-content div {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-content p,
+.footer-content ul {
+    margin: 0;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 5px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+    /* background-color: #000; */
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #0e0101;
+    margin-top: 20px;
+    background-color: #0cab5f;
+    
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-info{
+    color: #fff;
+}
+
+.shop-links{
+    color: #fff;
+}
+
+.social-media{
+    color: #fff;
+}
+
+.social-media:hover{
+    color: #01FBB0;
+}
+
+
